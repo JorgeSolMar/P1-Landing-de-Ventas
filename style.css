@@ -41,12 +41,12 @@
 
 .datosjumbo {
     margin-left: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
     
 }
 
 .datosjumbo p {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-weight: bolder;
 }
 
@@ -55,7 +55,7 @@
     height: 40px;
     width: 400px;
     border-radius: 6px;
-    margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 15px;
 }
 
@@ -64,5 +64,14 @@
     font-size: 10px;
     box-shadow: 0 1px 6px black;
     border-color: gray;
-    text-align: right;
+}
+
+.condiciones {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.btn-secondary {
+    margin-top: 15px;
 }
