@@ -144,6 +144,9 @@
     border-radius: 10px;
 }
 
+
+/*Inicia estilado del footer*/
+
 footer {
     background-color: #111827;
     color: gray;
@@ -157,4 +160,14 @@ footer {
     gap: 1em;
     place-items: center;
 
+}
+
+
+
+
+
+
+.falsa {
+    text-align: center;
+    font-size: 15px;
 }
