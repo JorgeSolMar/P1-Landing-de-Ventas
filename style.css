@@ -9,7 +9,7 @@
     height: 40px;
     width: 160px;
     margin-left: 45px;
-        border-radius: 15px;
+    border-radius: 15px;
 }
 
 .header-right {
@@ -28,7 +28,13 @@
 .jumbo {
     height: 480px;
     width: 100%;
-    background: linear-gradient(90deg, red, orange, rgb(246, 187, 76));
+    background-image: url(https://scontent.fmex1-1.fna.fbcdn.net/v/t39.30808-6/315697295_2980922662211747_3402836076939764911_n.png?stp=dst-png_s960x960&_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHWab0QE2ihLLMkWFM-JZ3NP_aNOO5Xqzo_9o047lerOhVYI-ESplKAtOqtJQHNOOaQ-HFQJHjycE6Daz9S1QKO&_nc_ohc=KC-ObOm2MvwAX_oFpJ1&_nc_ht=scontent.fmex1-1.fna&oh=00_AfDa1qM8AfhgAbOjQqfFI8Sjgn2DHgqHGCBIiPhyUDuLTw&oe=63859A7C);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    
     
 }
 
@@ -41,9 +47,12 @@
     background-position: center;
 }*/
 .fijar {
-    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    /*position: relative;
     float: right;
-    height: auto;
+    height: auto;*/
 }
 .fijar img {
     height: 480px;
@@ -130,7 +139,7 @@
 /* Se inicia CSS de sección adicional */
 
 .container {
-    background-image: url(https://ih1.redbubble.net/image.1643267596.2889/poster,504x498,f8f8f8-pad,600x600,f8f8f8.u1.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Xn4dF4iW0VxJGHgv5SgOvGoKnh19zYWDRQ&usqp=CAU);
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
