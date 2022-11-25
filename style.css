@@ -136,18 +136,10 @@
 }
 
 .caja {
-    
     width: 524px;
     height: 200px;
     overflow: auto;
     border: solid 5px;
-    
-    
     border-color: orange;
     border-radius: 10px;
-    
-
-    
-    
-    
 }
