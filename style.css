@@ -118,23 +118,24 @@
 
 /* Se inicia CSS de sección adicional */
 
-.container {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Xn4dF4iW0VxJGHgv5SgOvGoKnh19zYWDRQ&usqp=CAU);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 500px;
+.scroll {
+    background-color: black;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 0;
 }
 
-.meme {
-    width: auto;
-    height: 350px;
+.caja {
+    background-color: orange;
+    width: 530px;
+    height: 200px;
+    overflow: auto;
+    border-radius: 10px;
+    justify-content: center;
+
+    
+    
+    
 }
-
-.meme img {
-
-}
-
