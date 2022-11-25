@@ -4,11 +4,12 @@
     padding: 0;
 }
 
+
 .logo img {
     height: 40px;
+    width: 40px;
     margin-left: 45px;
-    width: 120px;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 
 .header-right {
@@ -33,7 +34,7 @@
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    background-image: url(https://www.chevroletriverolindavista.com.mx/content/dam/chevrolet/na/mx/es/index/certified-preowned/01-images/seminuevos-masthead.jpg?imwidth=960);
+    background-image: url(./assets/jumbo.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -100,5 +101,15 @@
 .vehiculo img {
     height: 172.2px;
     width: 300px;
-
 }
+
+.vehiculo p {
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.vehiculo a {
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
