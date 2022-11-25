@@ -101,23 +101,17 @@
 }
 
 .vehiculo {
-    background-color: whitesmoke;
-    
     margin: 0 auto;
 }
 
 .vehiculo img {
-    height: 200px;
-    width: 190px;
-}
-
-.vehiculo p {
-    margin-left: 8px;
-    margin-bottom: 0;
+    height: 270px;
+    width: 270px;
 }
 
 .vehiculo a {
-    margin-left: 8px;
-    margin-bottom: 0;
+    color: white;
+    margin-left: px;
+    margin-bottom: 40px;
 }
 
