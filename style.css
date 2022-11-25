@@ -190,10 +190,38 @@ a.decor {
     text-decoration: none; 
 }
 
-
 .falsa {
     text-align: center;
     font-size: 15px;
 }
 
-/*AJUSTES POR RESPONSIVE*/
+/*AJUSTES NECESARIOS PARA RESPONSIVE*/
+
+@media screen and (max-width: 529px) {
+    .caja {
+        width: auto;
+        height: 200px;
+        overflow: auto;
+        border: solid 5px;
+        border-color: orange;
+        border-radius: 10px;
+    }
+      
+}
+
+@media screen and (max-width: 300px) {
+    .datosjumbo p {
+        margin-bottom: 5px;
+        font-weight: bolder;
+        width: auto;
+    }
+    
+    .entradas {
+        margin-left: 10px;
+        height: 40px;
+        width: auto;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    
+}
