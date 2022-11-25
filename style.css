@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+        
 }
 
 .logo img {
@@ -154,12 +154,40 @@ footer {
 }
 
 .pie {
-    margin: 0, 50px;
+    margin: 0px, 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1em;
-    place-items: center;
+    place-items: start;
+    
+}
 
+.contacto {
+    margin: 10px 100px;
+    list-style-type: none;
+}
+.contacto li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.redes {
+    margin: 10px 100px;
+    list-style-type: none;
+}
+.redes li {
+    list-style-type: none;
+}
+
+.soporte {
+    margin: 10px 100px;
+    list-style-type: none;
+}
+.soporte li{
+    list-style-type: none;
+}
+a.decor {
+    text-decoration: none; 
 }
 
 
