@@ -94,7 +94,7 @@
 }
 
 .catalogo {
-    margin: 30px 10px;
+    margin: 0px 60px;
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -118,22 +118,34 @@
 
 /* Se inicia CSS de sección adicional */
 
+.comentarios {
+    background-color:#d5e1f1;
+}
+
+.comentarios h3 {
+    padding-top: 40px;
+}
+
 .scroll {
-    background-color: black;
+    background-color:#d5e1f1;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 250px;
     margin: 0;
 }
 
 .caja {
-    background-color: orange;
-    width: 530px;
+    
+    width: 524px;
     height: 200px;
     overflow: auto;
+    border: solid 5px;
+    
+    
+    border-color: orange;
     border-radius: 10px;
-    justify-content: center;
+    
 
     
     
