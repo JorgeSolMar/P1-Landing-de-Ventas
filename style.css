@@ -37,12 +37,19 @@
 .datosjumbo {
     margin-left: 15px;
     padding-top: 10px;
+    width: 100%;
     
+}
+
+.datosjumbo h2 {
+    text-align: center;
+    margin-top: 15px;
 }
 
 .datosjumbo p {
     margin-bottom: 10px;
     font-weight: bolder;
+    width: 400px;
 }
 
 .entradas {
@@ -62,7 +69,7 @@
 }
 
 .condiciones {
-    font-size: 11px;
+    font-size: 13px;
     text-decoration: none;
 }
 
