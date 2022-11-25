@@ -82,17 +82,23 @@
     
 }
 
-.catalogo   {
-    margin: 30px 20%;
+.catalogo {
+    margin: 30px 40px;
     display: grid;
     grid-template-rows: 300px;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1fr);
     
 
 }
 
 .vehiculo {
     background-color: whitesmoke;
-    width: fit-content;
+    
     margin: 0 auto;
+}
+
+.vehiculo img {
+    height: 172.2px;
+    width: 300px;
+
 }
