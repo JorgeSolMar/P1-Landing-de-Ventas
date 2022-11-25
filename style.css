@@ -120,10 +120,11 @@
 
 .container {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Xn4dF4iW0VxJGHgv5SgOvGoKnh19zYWDRQ&usqp=CAU);
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-    width: 1000px;
+    width: 100%;
     height: 500px;
     display: flex;
 }
