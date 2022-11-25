@@ -136,7 +136,7 @@
 }
 
 .caja {
-    width: 524px;
+    width: 530px;
     height: 200px;
     overflow: auto;
     border: solid 5px;
@@ -191,21 +191,9 @@ a.decor {
 }
 
 
-
-/*se agregan background-image para los iconos del footer*/
-
-.telefono {
-    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/tFjy1…LdOOda5obp0ZM5GqgOzKY2JZK553PEKzjyAupz-PKWiyjn39V);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    
-}
-
-
-
-
 .falsa {
     text-align: center;
     font-size: 15px;
 }
+
+/*AJUSTES POR RESPONSIVE*/
