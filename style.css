@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .logo img {
@@ -89,9 +90,17 @@
 /* Se inicia CSS de la sección del catalogo */
 .inventario {
     width: 100%;
-    height: 900px;
+    height: 850px;
     /*background-color: black;*/
     background: linear-gradient(90deg, red, orange, rgb(246, 187, 76));
+}
+
+.titulo-catalogo {
+    margin-left: 15px;
+    padding-top: 50px;
+    color: white;
+    font: bolder;
+    font-size: x-large;
 }
 
 .catalogo {
@@ -119,4 +128,23 @@
 }
 
 /* Se inicia CSS de sección adicional */
+
+.container {
+    background-image: url(https://ih1.redbubble.net/image.1643267596.2889/poster,504x498,f8f8f8-pad,600x600,f8f8f8.u1.jpg);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.meme {
+    width: auto;
+    height: 350px;
+}
+
+.meme img {
+
+}
 
