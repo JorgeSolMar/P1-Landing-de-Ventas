@@ -66,6 +66,8 @@ header {
     text-align: center;
     margin-top: 15px;
     color: orangered;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .datosjumbo p {
@@ -126,6 +128,8 @@ header {
     text-align: center;
     padding-top: 30px;
     color: orangered;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .catalogo {
@@ -280,13 +284,13 @@ footer {
     }
     
     .header-right a {
-        font-size: 10px;
-        ;
+        font-size: 20px;
+        place-content: center;
     }
 
     .uno {
         grid-row: 1/2;
-        
+        place-content: center;
     }
     .dos {
         grid-column-start: 2;
