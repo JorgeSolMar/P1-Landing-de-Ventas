@@ -95,10 +95,7 @@
 .inventario {
     width: 100%;
     height: auto;
-    background: radial-gradient(orange, black);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: radial-gradient(transparent, orange);
 }
 
 .titulo-catalogo {
@@ -210,7 +207,7 @@ footer {
 }
 .soporte a {
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 
 
@@ -227,12 +224,6 @@ footer {
         margin: 0px 0px;
     }
     
-    .pie ul {
-        margin: 0;
-        padding: 0;
-        width: ;
-    }
-
 }
 
 @media screen and (max-width: 529px) {
