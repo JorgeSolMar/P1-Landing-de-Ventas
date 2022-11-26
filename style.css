@@ -205,8 +205,8 @@ footer {
     height: auto;
 }
 
-.contacto li {
-    margin: 5px 0px;
+.contacto p {
+    margin: 5px 5px;
     list-style-type: none;
     width: auto;
     text-align: center;
@@ -216,8 +216,8 @@ footer {
     color: white;
 }
 
-.redes li {
-    margin: 5px 0px;
+.redes p {
+    margin: 5px 5px;
     list-style-type: none;
     width: auto;
     text-align: center;
@@ -227,8 +227,8 @@ footer {
     color:white;
 }
 
-.soporte li {
-    margin: 5px 0px;
+.soporte p {
+    margin: 5px 5px;
     list-style-type: none;
     width: auto;
     text-align: center;
