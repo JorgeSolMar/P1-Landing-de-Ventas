@@ -28,35 +28,40 @@
 .jumbo {
     height: auto;
     width: 100%;
-    background-image: url(https://th.bing.com/th/id/R.d45db22b1bbd3b726a50e3f2bae05a13?rik=A5wrn1VYjeB5jg&pid=ImgRaw&r=0);
-    /*background-image: url(https://scontent.fmex1-1.fna.fbcdn.net/v/t39.30808-6/315697295_2980922662211747_3402836076939764911_n.png?stp=dst-png_s960x960&_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHWab0QE2ihLLMkWFM-JZ3NP_aNOO5Xqzo_9o047lerOhVYI-ESplKAtOqtJQHNOOaQ-HFQJHjycE6Daz9S1QKO&_nc_ohc=KC-ObOm2MvwAX_oFpJ1&_nc_ht=scontent.fmex1-1.fna&oh=00_AfDa1qM8AfhgAbOjQqfFI8Sjgn2DHgqHGCBIiPhyUDuLTw&oe=63859A7C);*/
+      
+}
+
+
+.datosjumbo {
+    padding-top: 10px;
+    background: #212529;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.datosjumbo {
-    margin-left: 15px;
-    padding-top: 10px;
-}
-
 .datosjumbo h1 {
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     margin-top: 15px;
-    color: white;
+    color: orangered;
 }
 
 .datosjumbo p {
-    margin-left: 10px;
+    padding-left: 10px;
     margin-bottom: 5px;
     font-weight: bolder;
-    width: 300px;
-    color: white;
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+
+.inputs {
+    text-align: center;
 }
 
 .entradas {
-    margin-left: 10px;
+    text-align: center;
     height: 40px;
     width: 300px;
     border-radius: 6px;
@@ -78,17 +83,18 @@
 
 .importa {
     padding-bottom: 20px;
+    border: 15px;
+    text-align: center;
 }
-/*.btn-secondary {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.btn .btn {
+    border-width: 20px;
 }*/
 
 /* Se inicia CSS de la sección del catalogo */
 .inventario {
     width: 100%;
     height: auto;
-    background-color:#f9fafb;
+    background: radial-gradient(orange, black);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
