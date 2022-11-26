@@ -264,7 +264,7 @@ footer {
 
     .pie {
         display: grid;
-        grid-template: 70% 30% / 1fr;
+        grid-template-columns: 1fr;
     }
 
     .contenedor {
