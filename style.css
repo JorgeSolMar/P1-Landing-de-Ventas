@@ -221,19 +221,8 @@ footer {
         margin: 0px 0px;
     }
     
-    .contacto {
-        
-        adding: 0;
-
-    }
-    
-    .redes {
-        margin: 0, auto;
-        padding: 0;
-    }
-    
-    .soporte {
-        margin: 0, auto;
+    .pie ul {
+        margen: 0;
         padding: 0;
     }
 
