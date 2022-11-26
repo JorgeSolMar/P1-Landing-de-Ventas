@@ -10,6 +10,7 @@
     width: 160px;
     margin-left: 45px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .header-right {
@@ -108,26 +109,29 @@
 }
 
 .catalogo {
-    margin: 0px 60px;
+    margin: 0px 130px;
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+
 }
 
 .articulo {
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .articulo img {
     height: 270px;
     width: 270px;
+    margin: 0;
 }
 
 .articulo a {
     color: black;
     margin-left: px;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 
 /* Se inicia CSS de sección adicional */
@@ -211,6 +215,30 @@ footer {
 
 /*AJUSTES NECESARIOS PARA RESPONSIVE*/
 
+
+@media screen and (max-width: 800px) {
+    .catalogo {
+        margin: 0px 0px;
+    }
+    
+    .contacto {
+        
+        adding: 0;
+
+    }
+    
+    .redes {
+        margin: 0, auto;
+        padding: 0;
+    }
+    
+    .soporte {
+        margin: 0, auto;
+        padding: 0;
+    }
+
+}
+
 @media screen and (max-width: 529px) {
     .caja {
         width: auto;
@@ -238,6 +266,11 @@ footer {
         margin-bottom: 15px;
         font-size: 15px;
     }
-
+    
+    .articulo img {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
     
 }
