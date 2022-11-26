@@ -176,33 +176,33 @@ footer {
     
 }
 
-.contacto {
-    margin: 10px 100px;
-    list-style-type: none;
-}
 .contacto li {
+    margin: 5px 100px;
     list-style-type: none;
+}
+.contacto a {
     text-decoration: none;
+    
 }
 
-.redes {
-    margin: 10px 100px;
-    list-style-type: none;
-}
 .redes li {
+    margin: 5px 100px;
     list-style-type: none;
+}
+.redes a {
+    text-decoration: none;
+    color:gray
 }
 
-.soporte {
-    margin: 10px 100px;
+.soporte li {
+    margin: 5px 100px;
     list-style-type: none;
 }
-.soporte li{
-    list-style-type: none;
+.soporte a {
+    text-decoration: none;
+    color:gray
 }
-a.decor {
-    text-decoration: none; 
-}
+
 
 .falsa {
     text-align: center;
