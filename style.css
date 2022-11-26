@@ -173,39 +173,44 @@ footer {
 }
 
 .pie {
-    margin: 0px, 50px;
+    margin: 0, 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1em;
-    place-items: start;
-    
+    height: auto;
 }
 
 .contacto li {
-    margin: 5px 100px;
+    margin: 5px 0px;
     list-style-type: none;
+    width: auto;
+    text-align: center;
 }
 .contacto a {
     text-decoration: none;
-    
+    color: white;
 }
 
 .redes li {
-    margin: 5px 100px;
+    margin: 5px 0px;
     list-style-type: none;
+    width: auto;
+    text-align: center;
 }
 .redes a {
     text-decoration: none;
-    color:gray
+    color:white;
 }
 
 .soporte li {
-    margin: 5px 100px;
+    margin: 5px 0px;
     list-style-type: none;
+    width: auto;
+    text-align: center;
 }
 .soporte a {
     text-decoration: none;
-    color:gray
+    color: white;
 }
 
 
@@ -223,8 +228,9 @@ footer {
     }
     
     .pie ul {
-        margen: 0;
+        margin: 0;
         padding: 0;
+        width: ;
     }
 
 }
