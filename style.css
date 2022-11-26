@@ -95,14 +95,13 @@
 .inventario {
     width: 100%;
     height: auto;
-    background: radial-gradient(transparent, orange);
+    background-color: black;
 }
 
 .titulo-catalogo {
     text-align: center;
     padding-top: 30px;
     color: black;
-    
 }
 
 .catalogo {
@@ -110,8 +109,7 @@
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-
+    
 }
 
 .articulo {
@@ -135,6 +133,7 @@
 
 .comentarios {
     background-color:#f9fafb;
+    
 }
 
 .comentarios h3 {
@@ -147,13 +146,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    margin: 0;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .caja {
-    width: 530px;
-    height: 200px;
+    width: 590px;
+    height: 500px;
     overflow: auto;
     border: solid 5px;
     border-color: orange;
